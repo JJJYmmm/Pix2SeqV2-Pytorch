@@ -1,0 +1,26 @@
+Number of files in annotations: 3420
+Number of files in predictions: 3420
+Unique classes: 20
+Detections length: 3420
+Annotations length: 3420
+aeroplane                      | 0.471302 |     228
+bicycle                        | 0.292253 |     158
+bird                           | 0.402689 |     247
+boat                           | 0.217368 |     217
+bottle                         | 0.048833 |     319
+bus                            | 0.406748 |     128
+car                            | 0.137978 |     525
+cat                            | 0.730861 |     254
+chair                          | 0.064065 |     618
+cow                            | 0.371792 |     132
+diningtable                    | 0.219033 |     170
+dog                            | 0.615375 |     312
+horse                          | 0.414988 |     139
+motorbike                      | 0.364375 |     185
+person                         | 0.302813 |    3480
+pottedplant                    | 0.086065 |     253
+sheep                          | 0.169243 |     270
+sofa                           | 0.391536 |     186
+train                          | 0.666604 |     127
+tvmonitor                      | 0.207850 |     160
+mAP: 0.329089
