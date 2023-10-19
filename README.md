@@ -89,7 +89,7 @@ After that you can see three images(`instance_segmentation.png, keypoint_detecti
 
 result.txt shows all the predictions, 
 
-```json
+```
 skipping pos_embed...
 skipping pos_embed...
 <All keys matched successfully>
