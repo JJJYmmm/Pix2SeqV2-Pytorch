@@ -136,11 +136,7 @@ Anyway, JJJymmm's pix2seqV2 has taken the first step !!!
 
 ### Object Detection
 
-<div align=center>
-
-![object_detection](.\readme_img\object_detection.png)
-
-</div>
+![object_detection](.\readme_img\object_detection.png#pic_center)
 
 For object detection, you can run the following code to train Pix2Seq from scratch. Hyperparameters such as training epochs, learning rate, etc. can be set in `./config.py`. And the weights are saved in the directory `./train`.
 
@@ -166,11 +162,7 @@ Training and prediction for the other tasks did not differ much from this task.
 
 ### Instance Segmentation
 
-<div align=center>
-
-![segmentation](.\readme_img\segmentation.png)
-
-</div>
+![segmentation](.\readme_img\segmentation.png#pic_center)
 
 Code for training.
 
@@ -192,11 +184,7 @@ The results of visualization are saved in `instance_segmentation.png`.
 
 ### Image Captioning
 
-<div align=center>
-
-![captioning](.\readme_img\captioning.png)
-
-</div>
+![captioning](.\readme_img\captioning.png#pic_center)
 
 Code for training.
 
@@ -221,11 +209,7 @@ The results are printed in terminal.
 
 ### Keypoint Detection
 
-<div align=center>
-![keypoint](.\readme_img\keypoint.png)
-
-</div>
-
+![keypoint](.\readme_img\keypoint.png#pic_center)
 
 Code for training.
 
