@@ -1,8 +1,12 @@
-# Pix2SeqV2 PyTorch 
+# Pix2SeqV2-Pytorch
 
 Simple PyTorch implementation of Pix2SeqV2. This project references  [moein-shariatnia's Pix2Seq](https://github.com/moein-shariatnia/Pix2Seq) and the paper [A Unified Sequence Interface for Vision Tasks](http://arxiv.org/abs/2206.07669). 
 
-![overview](https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/overview.png)
+<div align=center>
+
+<img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/overview.png" alt="overview" style="zoom: 5%;" />
+
+</div>
 
 ## Introduction
 
@@ -67,7 +71,11 @@ Before diving into the formal Train&Infer session, let me show a small demo for 
 
 I random choose a picture(No.6471) from COCO validation dataset for visualization.
 
+<div align=center>
+
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/000000006471.jpg" alt="000000006471" style="zoom:50%;" />
+
+</div>
 
 Next, you can run the following code to get the results of the four tasks.
 
@@ -81,7 +89,7 @@ After that you can see three images(`instance_segmentation.png, keypoint_detecti
 
 result.txt shows all the predictions, 
 
-```
+```json
 skipping pos_embed...
 skipping pos_embed...
 <All keys matched successfully>
@@ -106,11 +114,15 @@ Keypoint list:
 
 Three images visualize the results of the different visual tasks. 
 
+<div align=center>
+
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/obeject_detection.png" alt="obeject_detection" style="zoom:50%;" />
 
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/instance_segmentation.png" alt="instance_segmentation" style="zoom:50%;" />
 
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/keypoint_detection.png" alt="keypoint_detection" style="zoom:50%;" />
+
+</div>
 
 The **low recall of object detection task**  may be due to **poor data augmentation and not enough training epochs**.  
 
@@ -124,7 +136,11 @@ Anyway, JJJymmm's pix2seqV2 has taken the first step !!!
 
 ### Object Detection
 
+<div align=center>
+
 ![object_detection](https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/object_detection.png)
+
+</div>
 
 For object detection, you can run the following code to train Pix2Seq from scratch. Hyperparameters such as training epochs, learning rate, etc. can be set in `./config.py`. And the weights are saved in the directory `./train`.
 
@@ -150,7 +166,11 @@ Training and prediction for the other tasks did not differ much from this task.
 
 ### Instance Segmentation
 
+<div align=center>
+
 ![segmentation](https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/segmentation.png)
+
+</div>
 
 Code for training.
 
@@ -172,7 +192,11 @@ The results of visualization are saved in `instance_segmentation.png`.
 
 ### Image Captioning
 
+<div align=center>
+
 ![captioning](https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/captioning.png)
+
+</div>
 
 Code for training.
 
@@ -197,7 +221,12 @@ The results are printed in terminal.
 
 ### Keypoint Detection
 
+<div align=center>
+
 ![keypoint](https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/keypoint.png)
+
+</div>
+
 
 Code for training.
 
@@ -240,13 +269,18 @@ The text results are printed in terminal and the results of visualization are sa
 
 ## Some Results
 
+<div align=center>
+
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/pix2seq_result_objection_detection.png" alt="pix2seq_result_objection_detection" style="zoom:25%;" />
+
 
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/pix2seq_result_objection_detection2.png" alt="pix2seq_result_objection_detection2" style="zoom: 67%;" />
 
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/pix2seq_result_instance_segmentation.png" alt="pix2seq_result_instance_segmentation" style="zoom: 67%;" />
 
 <img src="https://typora-img-1311051873.cos.ap-beijing.myqcloud.com/pix2seq_result_keypoint_detection.png" alt="pix2seq_result_keypoint_detection" style="zoom: 67%;" />
+
+</div>
 
 ## Cite
 
