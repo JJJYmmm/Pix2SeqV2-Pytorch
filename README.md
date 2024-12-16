@@ -61,7 +61,7 @@ xml_path = '../download/VOCdevkit/VOC2012/Annotations'
 dir_root = '/mnt/MSCOCO'
 ```
 
-**I trained some weights for different tasks, you can fetch them [here](https://pan.baidu.com/s/1NKrsdx-Qsh0qJ-qhJY694A?pwd=1212)**. Put them in folder Pix2SeqV2/weights, so that you don't need to change corresponding configs.
+**I trained some weights for different tasks, you can fetch them from [Baidu Pan](https://pan.baidu.com/s/1NKrsdx-Qsh0qJ-qhJY694A?pwd=1212) or [Google Drive (only multitask)](https://drive.google.com/file/d/12VUEfhBopblnjSqPQAFrij_5uXAGMO8T/view?usp=sharing)**. Put them in folder Pix2SeqV2/weights, so that you don't need to change corresponding configs.
 
 ## A Small Demo
 
